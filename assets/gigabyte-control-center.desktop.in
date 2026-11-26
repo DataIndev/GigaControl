@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=GigaControl Center
+GenericName=Centro de Control Gigabyte
+Comment=Configura teclado RGB, brillo, ventiladores, rendimiento y energía en laptops Gigabyte
+Exec=@BINDIR@/gigabyte-control-center
+Icon=gigabyte-control-center
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=gigabyte;control center;fan;ventilador;rgb;keyboard;teclado;brillo;power;energia;
+StartupNotify=true
+StartupWMClass=io.github.gigactl.ControlCenter

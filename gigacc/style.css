@@ -1,0 +1,170 @@
+/* GigaControl Center - Estética moderna inspirada en Gigabyte Control Center */
+
+.gcc-sidebar {
+    background-color: alpha(@window_fg_color, 0.03);
+    border-right: 1px solid alpha(@window_fg_color, 0.09);
+}
+
+.gcc-brand-title {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+}
+
+.gcc-brand-sub {
+    font-size: 11px;
+    opacity: 0.72;
+}
+
+.gcc-nav-list {
+    background: transparent;
+}
+
+.gcc-nav-list row {
+    border-radius: 10px;
+    margin: 2px 8px;
+    padding: 4px 6px;
+}
+
+.gcc-nav-list row:selected {
+    background-color: alpha(#FF6B00, 0.18);
+    color: #FF8C24;
+    font-weight: 700;
+}
+
+.gcc-card {
+    background-color: alpha(@window_fg_color, 0.04);
+    border: 1px solid alpha(@window_fg_color, 0.09);
+    border-radius: 14px;
+    padding: 16px;
+}
+
+.gcc-page-title {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.gcc-section-title {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.gcc-eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    opacity: 0.65;
+    letter-spacing: 0.06em;
+}
+
+.gcc-kpi-big {
+    font-size: 22px;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+}
+
+.gcc-muted {
+    font-size: 12px;
+    opacity: 0.72;
+}
+
+.gcc-pill {
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.gcc-pill-ok {
+    background-color: alpha(#22D38E, 0.18);
+    color: #22D38E;
+    border: 1px solid alpha(#22D38E, 0.45);
+}
+
+.gcc-pill-warn {
+    background-color: alpha(#FF9800, 0.18);
+    color: #FFA726;
+    border: 1px solid alpha(#FF9800, 0.45);
+}
+
+.gcc-pill-err {
+    background-color: alpha(#EF4444, 0.18);
+    color: #F87171;
+    border: 1px solid alpha(#EF4444, 0.45);
+}
+
+.gcc-banner-warn {
+    background-color: alpha(#FF6B00, 0.14);
+    border: 1px solid alpha(#FF6B00, 0.45);
+    border-radius: 12px;
+    padding: 12px 14px;
+}
+
+.gcc-mode-btn {
+    border-radius: 12px;
+    padding: 10px 12px;
+    border: 1px solid alpha(@window_fg_color, 0.12);
+    background-color: alpha(@window_fg_color, 0.03);
+    transition: all 140ms ease;
+}
+
+.gcc-mode-btn:hover {
+    border-color: alpha(#FF6B00, 0.55);
+    background-color: alpha(#FF6B00, 0.08);
+}
+
+.gcc-mode-btn:checked {
+    background-color: alpha(#FF6B00, 0.22);
+    border-color: #FF6B00;
+    color: #FF8C24;
+}
+
+.gcc-mode-btn.firmware:checked {
+    background-color: alpha(#00D1FF, 0.16);
+    border-color: #00D1FF;
+    color: #38BDF8;
+}
+
+.gcc-accent-btn {
+    background-color: #FF6B00;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.gcc-accent-btn:hover {
+    background-color: #FF7F1F;
+}
+
+.gcc-swatch {
+    border-radius: 999px;
+    padding: 3px;
+    min-width: 34px;
+    min-height: 34px;
+    border: 2px solid transparent;
+    background: transparent;
+}
+
+.gcc-swatch.selected {
+    border-color: #FFFFFF;
+    box-shadow: 0 0 0 2px #FF6B00;
+}
+
+.gcc-value-chip {
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background-color: alpha(@window_fg_color, 0.08);
+}
+
+progressbar.gcc-ram-bar trough {
+    min-height: 8px;
+    border-radius: 999px;
+}
+
+progressbar.gcc-ram-bar progress {
+    min-height: 8px;
+    border-radius: 999px;
+    background-color: #00D1FF;
+}
